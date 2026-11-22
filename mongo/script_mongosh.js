@@ -1,7 +1,7 @@
 // Scripts empleados en mongo para la parte 1 del parcial
 
 // Crear la Base de Datos 
-use MatriculaApp;
+db = db.getSiblingDB("MatriculaApp");
 
 //Creacción de las Colecciones en la Base de Datos
 db.createCollection("agentes")
